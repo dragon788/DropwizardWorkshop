@@ -1,9 +1,9 @@
 To run multiple instances of the service with different .yml.
 - To build the fat jar, use:
-	gradle capsule
+	gradlew capsule
 	
 - To clean
-	gradle clean
+	gradlew clean
 
 - Default used the jmodern.yml file so just run:	
 	java -jar build/libs/loancalc.jar server build/resources/main/loancalc.yml
